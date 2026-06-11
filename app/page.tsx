@@ -1,43 +1,40 @@
 export default function Home() {
   return (
-    <main className="min-h-screen relative overflow-hidden text-white">
-      <div className="absolute inset-0 bg-[url('/bg.jpg')] bg-cover bg-center scale-105 blur-sm" />
-      <div className="absolute inset-0 bg-slate-950/75" />
+    <main className="min-h-screen bg-white text-black">
+      <section className="min-h-screen flex flex-col">
+        <header className="w-full px-5 md:px-12 py-5">
+  <img
+    src="/logo.png"
+    alt="SCHUNK Logo"
+    className="h-16 md:h-20 w-auto"
+  />
+</header>
 
-      <section className="relative z-10 min-h-screen flex flex-col">
-        <header className="w-full px-5 md:px-12 py-5 flex flex-col md:flex-row items-center justify-between gap-5">
-          <div className="flex items-center gap-3">
-            <img
-              src="/image.png"
-              alt="SCHUNK Logo"
-              className="h-12 w-auto"
-            />
-          </div>
-
-        </header>
-
-        <div className="flex-1 flex items-center justify-center px-2">
+        <div className="flex-1 flex items-center justify-center px-4">
           <div className="max-w-4xl text-center">
-            <p className="mb-3 text-cyan-300 font-semibold tracking-wide">
+            <h1 className="text-3xl md:text-5xl font-bold text-[#003B5C]">
               SCHUNK Product Overview
+            </h1>
+
+            <p className="mt-4 text-gray-600">
+              Product catalog download below
             </p>
 
-            <p className="mt-5 text-slate-200 text-base md:text-lg">
-              Product catalog download Below.
-            </p>
-
-            <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
+            <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
               <a
                 href="/1.pdf"
-                className="rounded-xl bg-cyan-500 px-8 py-4 font-bold text-slate-950 hover:bg-cyan-300 transition"
+                target="_blank"
+                className="rounded-xl bg-[#00AEEF] px-8 py-4 font-bold text-white hover:opacity-90"
               >
-                 Download Product 1
+                Toolholding and Workholding
               </a>
+
               <a
                 href="/2.pdf"
-                className="rounded-xl bg-white px-8 py-4 font-bold text-slate-950 hover:bg-slate-200 transition"
+                target="_blank"
+                className="rounded-xl bg-[#003B5C] px-8 py-4 font-bold text-white hover:opacity-90"
               >
-                 Download Product 2
+                Gripping and Automation Technology
               </a>
             </div>
           </div>
