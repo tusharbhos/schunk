@@ -3,20 +3,27 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* SCHUNK Colors */
+  --schunk-blue: #003b5c;
+  --schunk-cyan: #00aeef;
+  --schunk-white: #ffffff;
+  --schunk-black: #020617;
+  --schunk-gray: #e5e7eb;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-schunk-blue: var(--schunk-blue);
+  --color-schunk-cyan: var(--schunk-cyan);
+  --color-schunk-white: var(--schunk-white);
+  --color-schunk-black: var(--schunk-black);
+  --color-schunk-gray: var(--schunk-gray);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
