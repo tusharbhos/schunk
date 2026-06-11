@@ -28,13 +28,13 @@ export default function Home() {
 
             <div className="mt-8 flex flex-col sm:flex-row justify-center gap-4">
               <a
-                href="/product1.pdf"
+                href="/1.pdf"
                 className="rounded-xl bg-cyan-500 px-8 py-4 font-bold text-slate-950 hover:bg-cyan-300 transition"
               >
                  Download Product 1
               </a>
               <a
-                href="/product2.pdf"
+                href="/2.pdf"
                 className="rounded-xl bg-white px-8 py-4 font-bold text-slate-950 hover:bg-slate-200 transition"
               >
                  Download Product 2
