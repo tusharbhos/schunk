@@ -33,7 +33,6 @@ export default function Home() {
               >
                  Download Product 1
               </a>
-
               <a
                 href="/product2.pdf"
                 className="rounded-xl bg-white px-8 py-4 font-bold text-slate-950 hover:bg-slate-200 transition"
